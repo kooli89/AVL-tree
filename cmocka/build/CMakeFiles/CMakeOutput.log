@@ -1,0 +1,903 @@
+The system is: Linux - 4.4.0-119-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/3.5.1/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_38495/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38495.dir/build.make CMakeFiles/cmTC_38495.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_38495.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_38495.dir/testCCompiler.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_38495
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_38495.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_38495.dir/testCCompiler.c.o  -o cmTC_38495 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3801b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3801b.dir/build.make CMakeFiles/cmTC_3801b.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3801b.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_3801b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_3801b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3801b.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_3801b.dir/CMakeCCompilerABI.c.o  -o cmTC_3801b -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3801b' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFngPLu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_3801b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_3801b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_3801b/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_3801b.dir/build.make CMakeFiles/cmTC_3801b.dir/build]
+  ignore line: [make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_3801b.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_3801b.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_3801b]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3801b.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_3801b.dir/CMakeCCompilerABI.c.o  -o cmTC_3801b -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.9' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.9) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3801b' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccFngPLu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_3801b /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_3801b.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccFngPLu.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_3801b] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_3801b.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_318da/fast"
+/usr/bin/make -f CMakeFiles/cmTC_318da.dir/build.make CMakeFiles/cmTC_318da.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_318da.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_318da.dir/feature_tests.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_318da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_318da.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_318da.dir/feature_tests.c.o  -o cmTC_318da -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d6c38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d6c38.dir/build.make CMakeFiles/cmTC_d6c38.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d6c38.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_d6c38.dir/feature_tests.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d6c38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6c38.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d6c38.dir/feature_tests.c.o  -o cmTC_d6c38 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af5b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af5b0.dir/build.make CMakeFiles/cmTC_af5b0.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af5b0.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_af5b0.dir/feature_tests.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_af5b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af5b0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_af5b0.dir/feature_tests.c.o  -o cmTC_af5b0 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Performing C SOURCE FILE Test WITH_FPIC succeeded with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_aa89a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_aa89a.dir/build.make CMakeFiles/cmTC_aa89a.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa89a.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -DWITH_FPIC   -fPIC -o CMakeFiles/cmTC_aa89a.dir/src.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_aa89a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_aa89a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -DWITH_FPIC    CMakeFiles/cmTC_aa89a.dir/src.c.o  -o cmTC_aa89a -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test WITH_STACK_PROTECTOR succeeded with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bec45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bec45.dir/build.make CMakeFiles/cmTC_bec45.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bec45.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -DWITH_STACK_PROTECTOR   -fstack-protector -o CMakeFiles/cmTC_bec45.dir/src.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/src.c
+/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/src.c:1:27: warning: unused parameter ‘argv’ [-Wunused-parameter]
+ int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+                           ^
+Linking C executable cmTC_bec45
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bec45.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -DWITH_STACK_PROTECTOR    CMakeFiles/cmTC_bec45.dir/src.c.o  -o cmTC_bec45 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char **argv) { char buffer[256]; return buffer[argc]=0;}
+Performing C SOURCE FILE Test WITH_VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8be65/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8be65.dir/build.make CMakeFiles/cmTC_8be65.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8be65.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN   -fvisibility=hidden -o CMakeFiles/cmTC_8be65.dir/src.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8be65
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8be65.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DWITH_VISIBILITY_HIDDEN    CMakeFiles/cmTC_8be65.dir/src.c.o  -o cmTC_8be65 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file assert.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ee2e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee2e6.dir/build.make CMakeFiles/cmTC_ee2e6.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee2e6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_ee2e6.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_ee2e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee2e6.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_ee2e6.dir/CheckIncludeFile.c.o  -o cmTC_ee2e6 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_955b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_955b8.dir/build.make CMakeFiles/cmTC_955b8.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_955b8.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_955b8.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_955b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_955b8.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_955b8.dir/CheckIncludeFile.c.o  -o cmTC_955b8 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fc22/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7fc22.dir/build.make CMakeFiles/cmTC_7fc22.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fc22.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_7fc22.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7fc22
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fc22.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_7fc22.dir/CheckIncludeFile.c.o  -o cmTC_7fc22 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e904d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e904d.dir/build.make CMakeFiles/cmTC_e904d.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e904d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_e904d.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_e904d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e904d.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_e904d.dir/CheckIncludeFile.c.o  -o cmTC_e904d -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file setjmp.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_af69c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af69c.dir/build.make CMakeFiles/cmTC_af69c.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af69c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_af69c.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_af69c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af69c.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_af69c.dir/CheckIncludeFile.c.o  -o cmTC_af69c -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3459a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3459a.dir/build.make CMakeFiles/cmTC_3459a.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3459a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_3459a.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_3459a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3459a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_3459a.dir/CheckIncludeFile.c.o  -o cmTC_3459a -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c04b4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c04b4.dir/build.make CMakeFiles/cmTC_c04b4.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c04b4.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_c04b4.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c04b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c04b4.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_c04b4.dir/CheckIncludeFile.c.o  -o cmTC_c04b4 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d998f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d998f.dir/build.make CMakeFiles/cmTC_d998f.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d998f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_d998f.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_d998f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d998f.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_d998f.dir/CheckIncludeFile.c.o  -o cmTC_d998f -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7e35f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e35f.dir/build.make CMakeFiles/cmTC_7e35f.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e35f.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_7e35f.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7e35f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e35f.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_7e35f.dir/CheckIncludeFile.c.o  -o cmTC_7e35f -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0864c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0864c.dir/build.make CMakeFiles/cmTC_0864c.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0864c.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_0864c.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_0864c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0864c.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_0864c.dir/CheckIncludeFile.c.o  -o cmTC_0864c -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_feff3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_feff3.dir/build.make CMakeFiles/cmTC_feff3.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_feff3.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_feff3.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_feff3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_feff3.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_feff3.dir/CheckIncludeFile.c.o  -o cmTC_feff3 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a99e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a99e.dir/build.make CMakeFiles/cmTC_9a99e.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a99e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_9a99e.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_9a99e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a99e.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_9a99e.dir/CheckIncludeFile.c.o  -o cmTC_9a99e -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4e8c6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4e8c6.dir/build.make CMakeFiles/cmTC_4e8c6.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4e8c6.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_4e8c6.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4e8c6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4e8c6.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_4e8c6.dir/CheckIncludeFile.c.o  -o cmTC_4e8c6 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_40611/fast"
+/usr/bin/make -f CMakeFiles/cmTC_40611.dir/build.make CMakeFiles/cmTC_40611.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_40611.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_40611.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_40611
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_40611.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_40611.dir/CheckIncludeFile.c.o  -o cmTC_40611 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8700d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8700d.dir/build.make CMakeFiles/cmTC_8700d.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8700d.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_8700d.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8700d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8700d.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_8700d.dir/CheckIncludeFile.c.o  -o cmTC_8700d -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file time.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f3f9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f3f9a.dir/build.make CMakeFiles/cmTC_f3f9a.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3f9a.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_f3f9a.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_f3f9a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3f9a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_f3f9a.dir/CheckIncludeFile.c.o  -o cmTC_f3f9a -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e935/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2e935.dir/build.make CMakeFiles/cmTC_2e935.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2e935.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_2e935.dir/CheckIncludeFile.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2e935
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e935.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_2e935.dir/CheckIncludeFile.c.o  -o cmTC_2e935 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMESPEC succeeded with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_595b5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_595b5.dir/build.make CMakeFiles/cmTC_595b5.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_595b5.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_STRUCT_TIMESPEC   -o CMakeFiles/cmTC_595b5.dir/src.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/src.c
+/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/src.c:4:5: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ int main()
+     ^
+Linking C executable cmTC_595b5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_595b5.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_STRUCT_TIMESPEC    CMakeFiles/cmTC_595b5.dir/src.c.o  -o cmTC_595b5 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+   (void)sizeof(((struct timespec *)0)->tv_sec);
+   return 0;
+}
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4f4e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4f4e.dir/build.make CMakeFiles/cmTC_e4f4e.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4f4e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=calloc   -o CMakeFiles/cmTC_e4f4e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘calloc’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_e4f4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4f4e.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=calloc    CMakeFiles/cmTC_e4f4e.dir/CheckFunctionExists.c.o  -o cmTC_e4f4e -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function exit exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ff5e4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ff5e4.dir/build.make CMakeFiles/cmTC_ff5e4.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ff5e4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=exit   -o CMakeFiles/cmTC_ff5e4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘exit’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_ff5e4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ff5e4.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=exit    CMakeFiles/cmTC_ff5e4.dir/CheckFunctionExists.c.o  -o cmTC_ff5e4 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fprintf exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f9cd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f9cd.dir/build.make CMakeFiles/cmTC_6f9cd.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f9cd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=fprintf   -o CMakeFiles/cmTC_6f9cd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘fprintf’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_6f9cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f9cd.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=fprintf    CMakeFiles/cmTC_6f9cd.dir/CheckFunctionExists.c.o  -o cmTC_6f9cd -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_580eb/fast"
+/usr/bin/make -f CMakeFiles/cmTC_580eb.dir/build.make CMakeFiles/cmTC_580eb.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_580eb.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=free   -o CMakeFiles/cmTC_580eb.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘free’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_580eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_580eb.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=free    CMakeFiles/cmTC_580eb.dir/CheckFunctionExists.c.o  -o cmTC_580eb -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function longjmp exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c173/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5c173.dir/build.make CMakeFiles/cmTC_5c173.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c173.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=longjmp   -o CMakeFiles/cmTC_5c173.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_5c173
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c173.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=longjmp    CMakeFiles/cmTC_5c173.dir/CheckFunctionExists.c.o  -o cmTC_5c173 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function siglongjmp exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1b853/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1b853.dir/build.make CMakeFiles/cmTC_1b853.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1b853.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=siglongjmp   -o CMakeFiles/cmTC_1b853.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_1b853
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1b853.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=siglongjmp    CMakeFiles/cmTC_1b853.dir/CheckFunctionExists.c.o  -o cmTC_1b853 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_192d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_192d2.dir/build.make CMakeFiles/cmTC_192d2.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_192d2.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=malloc   -o CMakeFiles/cmTC_192d2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘malloc’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_192d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_192d2.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=malloc    CMakeFiles/cmTC_192d2.dir/CheckFunctionExists.c.o  -o cmTC_192d2 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58a1a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58a1a.dir/build.make CMakeFiles/cmTC_58a1a.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58a1a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memcpy   -o CMakeFiles/cmTC_58a1a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘memcpy’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_58a1a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58a1a.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memcpy    CMakeFiles/cmTC_58a1a.dir/CheckFunctionExists.c.o  -o cmTC_58a1a -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8218f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8218f.dir/build.make CMakeFiles/cmTC_8218f.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8218f.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memset   -o CMakeFiles/cmTC_8218f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_8218f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8218f.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=memset    CMakeFiles/cmTC_8218f.dir/CheckFunctionExists.c.o  -o cmTC_8218f -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function printf exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fb6a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fb6a1.dir/build.make CMakeFiles/cmTC_fb6a1.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fb6a1.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=printf   -o CMakeFiles/cmTC_fb6a1.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘printf’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_fb6a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb6a1.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=printf    CMakeFiles/cmTC_fb6a1.dir/CheckFunctionExists.c.o  -o cmTC_fb6a1 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d1cae/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d1cae.dir/build.make CMakeFiles/cmTC_d1cae.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d1cae.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=setjmp   -o CMakeFiles/cmTC_d1cae.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_d1cae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d1cae.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=setjmp    CMakeFiles/cmTC_d1cae.dir/CheckFunctionExists.c.o  -o cmTC_d1cae -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function signal exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7a2e5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7a2e5.dir/build.make CMakeFiles/cmTC_7a2e5.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7a2e5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=signal   -o CMakeFiles/cmTC_7a2e5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_7a2e5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7a2e5.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=signal    CMakeFiles/cmTC_7a2e5.dir/CheckFunctionExists.c.o  -o cmTC_7a2e5 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strsignal exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9a6af/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a6af.dir/build.make CMakeFiles/cmTC_9a6af.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9a6af.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strsignal   -o CMakeFiles/cmTC_9a6af.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_9a6af
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a6af.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strsignal    CMakeFiles/cmTC_9a6af.dir/CheckFunctionExists.c.o  -o cmTC_9a6af -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_474c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_474c3.dir/build.make CMakeFiles/cmTC_474c3.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_474c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strcmp   -o CMakeFiles/cmTC_474c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcmp’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_474c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_474c3.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=strcmp    CMakeFiles/cmTC_474c3.dir/CheckFunctionExists.c.o  -o cmTC_474c3 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function clock_gettime exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf05b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf05b.dir/build.make CMakeFiles/cmTC_cf05b.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf05b.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime   -o CMakeFiles/cmTC_cf05b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+Linking C executable cmTC_cf05b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf05b.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTC_cf05b.dir/CheckFunctionExists.c.o  -o cmTC_cf05b -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sprintf exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df39c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df39c.dir/build.make CMakeFiles/cmTC_df39c.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df39c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=sprintf   -o CMakeFiles/cmTC_df39c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘sprintf’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_df39c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df39c.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=sprintf    CMakeFiles/cmTC_df39c.dir/CheckFunctionExists.c.o  -o cmTC_df39c -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_68e2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68e2e.dir/build.make CMakeFiles/cmTC_68e2e.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68e2e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf   -o CMakeFiles/cmTC_68e2e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:1: warning: function declaration isn’t a prototype [-Wstrict-prototypes]
+ char CHECK_FUNCTION_EXISTS();
+ ^
+<command-line>:0:23: warning: conflicting types for built-in function ‘vsnprintf’
+/usr/share/cmake-3.5/Modules/CheckFunctionExists.c:6:6: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+ char CHECK_FUNCTION_EXISTS();
+      ^
+Linking C executable cmTC_68e2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68e2e.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DCHECK_FUNCTION_EXISTS=vsnprintf    CMakeFiles/cmTC_68e2e.dir/CheckFunctionExists.c.o  -o cmTC_68e2e -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test HAVE_GCC_THREAD_LOCAL_STORAGE succeeded with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ecc82/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ecc82.dir/build.make CMakeFiles/cmTC_ecc82.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ecc82.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE   -o CMakeFiles/cmTC_ecc82.dir/src.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ecc82
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecc82.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_GCC_THREAD_LOCAL_STORAGE    CMakeFiles/cmTC_ecc82.dir/src.c.o  -o cmTC_ecc82 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+__thread int tls;
+
+int main(void) {
+    return 0;
+}
+Performing C SOURCE FILE Test HAVE_CLOCK_REALTIME succeeded with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84459/fast"
+/usr/bin/make -f CMakeFiles/cmTC_84459.dir/build.make CMakeFiles/cmTC_84459.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84459.dir/src.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_CLOCK_REALTIME   -o CMakeFiles/cmTC_84459.dir/src.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_84459
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84459.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE -DHAVE_CLOCK_REALTIME    CMakeFiles/cmTC_84459.dir/src.c.o  -o cmTC_84459 -rdynamic /usr/lib/x86_64-linux-gnu/librt.so 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <time.h>
+
+int main(void) {
+    struct timespec ts;
+
+    clock_gettime(CLOCK_REALTIME, &ts);
+
+    return 0;
+}
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6abb3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6abb3.dir/build.make CMakeFiles/cmTC_6abb3.dir/build
+make[1]: Entering directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6abb3.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/cc    -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE    -o CMakeFiles/cmTC_6abb3.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTC_6abb3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6abb3.dir/link.txt --verbose=1
+/usr/bin/cc   -std=gnu99 -pedantic -pedantic-errors -Wall -Wextra -Wshadow -Wmissing-prototypes -Wdeclaration-after-statement -Wunused -Wfloat-equal -Wpointer-arith -Wwrite-strings -Wformat-security -Wmissing-format-attribute -Wundef -Wstrict-prototypes -fPIC -fstack-protector -D_GNU_SOURCE -D_LARGEFILE64_SOURCE     CMakeFiles/cmTC_6abb3.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTC_6abb3 -rdynamic 
+make[1]: Leaving directory '/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/CMakeFiles/CMakeTmp'
+
+
