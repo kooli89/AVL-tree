@@ -61,9 +61,7 @@ struct Node *release(struct Node *node)
 static struct Node* newNode(const char *key , const char* value)
 {
   struct Node* node = malloc(sizeof(struct Node));
-  node->key = malloc(sizeof(key));
   (node->key) = key;
-  node->value = malloc(sizeof(value));
   (node->value) = value;
   node->left = node->right = NULL;
   node->height = 1;
@@ -98,6 +96,7 @@ static struct Node *rightRotate(struct Node *z)
   *z = *aux;
   y->left = T3;
   z->right = y;
+  release(aux);
   return z;
 }
 
@@ -112,12 +111,17 @@ static struct Node *leftRotate(struct Node *z)
   *z = *aux;
   y->right = T2;
   z->left = y;
+  release(aux);
   return z;
 }
 
 struct Node* insert(struct Node* node, const char* key,const char* value)
 {
-  if(node == NULL) return newNode(key,value); // arbre constitue uniquement d'un noeud contenant cet arbre
+  if(node == NULL)   // arbre constitue uniquement d'un noeud contenant cet arbre
+  {
+    node = newNode(key,value);
+    return node;
+  }
   int cmp = strcmp(key,node->key);
   if(!cmp) // les clés sont les memes
   {
@@ -126,13 +130,11 @@ struct Node* insert(struct Node* node, const char* key,const char* value)
   }
   else if(cmp < 0)
   {
-    struct Node* left_sub_tree = insert(node->left , key, value);
-    node->left = left_sub_tree;
+    node->left = insert(node->left , key, value);
   }
   else
   {
-    struct Node* right_sub_tree = insert(node->right , key, value);
-    node->right = right_sub_tree;
+    node->right = insert(node->right , key, value);
   }
   updateHeight(node);
   int node_balance = balance(node);
@@ -212,7 +214,7 @@ char *getValue(struct Node *node, const char *key)
   if(node == NULL) return NULL;
   return node->value;
 }
-/* Debugging function who prints the tree
+/* Debugging function which prints the tree
 */
 void print(struct Node* node)
 {
