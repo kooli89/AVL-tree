@@ -14,7 +14,6 @@ static void test_insert_et_nbNode(void **state) {
   // Inserer une cle fonctionne
   root = insert(root, "Leon" , "le pinson");
   assert_int_equal(1, nbNode(root));
-
   // Inserer une deuxieme fois la meme cle ne cree pas de nouveau noeud
   root = insert(root, "Leon", "le pinson");
   assert_int_equal(1, nbNode(root));

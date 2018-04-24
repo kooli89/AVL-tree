@@ -46,9 +46,13 @@ int nbNode(const struct Node* node)
 */
 struct Node *release(struct Node *node)
 {
+  if(node == NULL) return NULL;
+  release(node->left);
+  release(node->right);
+  free(node->key);
+  free(node->value);
   free(node);
-  node = NULL;
-  return node;
+  return NULL;
 }
 
 /* Fonction (interne) pour creer un noeud pour stocker la cle
@@ -61,8 +65,10 @@ struct Node *release(struct Node *node)
 static struct Node* newNode(const char *key , const char* value)
 {
   struct Node* node = malloc(sizeof(struct Node));
-  (node->key) = key;
-  (node->value) = value;
+  node->key = malloc(strlen(key) + 1);
+  strcpy((node->key),key);
+  node->value = malloc(strlen(value) + 1);
+  strcpy(node->value , value);
   node->left = node->right = NULL;
   node->height = 1;
   return node;
@@ -85,47 +91,35 @@ int balance(struct Node *node)
   return node == NULL ? 0 :(height(node->right) - height(node->left));
 }
 
+
 static struct Node *rightRotate(struct Node *z)
 {
   struct Node* y = z->left;
-  struct Node* x = y->left;
   struct Node* T3 = y->right;
-  struct Node* aux = malloc(sizeof(struct Node));
-  *aux = *y;
-  *y = *z;
-  *z = *aux;
+  swap(z,y);
   y->left = T3;
   z->right = y;
-  release(aux);
   return z;
 }
 
 static struct Node *leftRotate(struct Node *z)
 {
   struct Node* y = z->right;
-  struct Node* x = y->right;
   struct Node* T2 = y->left;
-  struct Node* aux = malloc(sizeof(struct Node));
-  *aux = *y;
-  *y = *z;
-  *z = *aux;
+  swap(z,y);
   y->right = T2;
   z->left = y;
-  release(aux);
   return z;
 }
 
 struct Node* insert(struct Node* node, const char* key,const char* value)
 {
-  if(node == NULL)   // arbre constitue uniquement d'un noeud contenant cet arbre
-  {
-    node = newNode(key,value);
-    return node;
-  }
+  if(node == NULL) return newNode(key,value);   // arbre constitue uniquement d'un noeud contenant cet arbre
   int cmp = strcmp(key,node->key);
   if(!cmp) // les clés sont les memes
   {
-    node->value = value;
+    node->value = realloc(node->value, strlen(value) + 1);
+    strcpy(node->value , value);
     return node;
   }
   else if(cmp < 0)
@@ -219,11 +213,37 @@ char *getValue(struct Node *node, const char *key)
 void print(struct Node* node)
 {
   if(node == NULL) return;
-  printf("Left sons of %s\n" , node->key);
+  printf("Left children of %s\n" , node->key);
   print(node->left);
-  printf("End of left sons of %s\n" , node->key);
+  printf("End of left children of %s\n" , node->key);
   printf("%s with height %d\n" , node->key , node->height);
-  printf("Right sons of %s\n" , node->key);
+  printf("Right children of %s\n" , node->key);
   print(node->right);
-  printf("End of right sons of %s\n" , node->key);
+  printf("End of right children of %s\n" , node->key);
+}
+
+static void swap(struct Node *z, struct Node *y)
+{
+  if(z==NULL || y==NULL) return;
+  char *aux_key = z->key;
+  char *aux_value = z->value;
+  struct Node *aux_left = z->left;
+  struct Node *aux_right = z->right;
+  int aux_height = z->height;
+
+  z->key = y->key;
+  y->key = aux_key;
+
+  z->value = y->value;
+  y->value = aux_value;
+
+  z->left = y->left;
+  y->left = aux_left;
+
+  z->right = y->right;
+  y->right = aux_right;
+
+  z->height = y->height;
+  y->height = aux_height;
+
 }
