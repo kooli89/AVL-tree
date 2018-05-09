@@ -245,19 +245,23 @@ static void test_getValue(void **state) {
   root = release(root);
 }
 
+
+
 int main(void) {
 
   const struct CMUnitTest tests[] = {
-    cmocka_unit_test(test_insert_et_nbNode),
-    cmocka_unit_test(test_release),
-    cmocka_unit_test(test_getKeyHeight),
-    cmocka_unit_test(test_getKeyRank),
-    cmocka_unit_test(test_equilibrageGaucheGauche),
-    cmocka_unit_test(test_equilibrageDroiteDroite),
-    cmocka_unit_test(test_equilibrageGaucheDroite),
-    cmocka_unit_test(test_equilibrageDroiteGauche),
-    cmocka_unit_test(test_getValue)
+    unit_test(test_insert_et_nbNode),
+    unit_test(test_release),
+    unit_test(test_getKeyHeight),
+    unit_test(test_getKeyRank),
+    unit_test(test_equilibrageGaucheGauche),
+    unit_test(test_equilibrageDroiteDroite),
+    unit_test(test_equilibrageGaucheDroite),
+    unit_test(test_equilibrageDroiteGauche),
+    unit_test(test_getValue)
   };
+
+  puts("KHALIL KOOLI.");
 
 
   return cmocka_run_group_tests(tests, NULL, NULL);

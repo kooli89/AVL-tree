@@ -50,8 +50,11 @@ struct Node *release(struct Node *node)
   release(node->left);
   release(node->right);
   free(node->key);
+  node->key = NULL;
   free(node->value);
+  node->value = NULL;
   free(node);
+  node = NULL;
   return NULL;
 }
 
@@ -65,9 +68,24 @@ struct Node *release(struct Node *node)
 static struct Node* newNode(const char *key , const char* value)
 {
   struct Node* node = malloc(sizeof(struct Node));
+  if(node == NULL) 
+  {
+    puts("NULL pointer");
+    return NULL;
+  }
   node->key = malloc(strlen(key) + 1);
+  if(node->key == NULL) 
+  {
+    puts("NULL pointer");
+    return NULL;
+  }
   strcpy((node->key),key);
   node->value = malloc(strlen(value) + 1);
+  if(node->value == NULL) 
+  {
+    puts("NULL pointer");
+    return NULL;
+  }
   strcpy(node->value , value);
   node->left = node->right = NULL;
   node->height = 1;
@@ -91,6 +109,7 @@ int balance(struct Node *node)
   return node == NULL ? 0 :(height(node->right) - height(node->left));
 }
 
+static void swap(struct Node *z, struct Node *y);
 
 static struct Node *rightRotate(struct Node *z)
 {
@@ -119,6 +138,11 @@ struct Node* insert(struct Node* node, const char* key,const char* value)
   if(!cmp) // les clés sont les memes
   {
     node->value = realloc(node->value, strlen(value) + 1);
+    if((node->value) == NULL)
+    {
+      puts("NULL pointer, Insertion failed");
+      return node;
+    }
     strcpy(node->value , value);
     return node;
   }

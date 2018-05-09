@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -18,9 +18,9 @@ windows.h
 stdio.h
 -
 
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/src/cmocka.c
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/src/cmocka.c
 config.h
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/src/config.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/src/config.h
 malloc.h
 -
 inttypes.h
@@ -46,7 +46,7 @@ string.h
 time.h
 -
 cmocka_platform.h
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/src/cmocka_platform.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/src/cmocka_platform.h
 cmocka.h
 -
 cmocka_private.h

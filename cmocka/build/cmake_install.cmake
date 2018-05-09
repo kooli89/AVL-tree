@@ -1,8 +1,8 @@
-# Install script for directory: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka
+# Install script for directory: /home/kooli/TSP/CSC4508/AVL-tree/cmocka
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,39 +32,44 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "pkgconfig")
-  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib/pkgconfig/cmocka.pc")
-  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
-    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
-  endif()
-file(INSTALL DESTINATION "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib/pkgconfig" TYPE FILE FILES "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/cmocka.pc")
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "devel")
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xpkgconfigx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib/cmake/cmocka/cmocka-config.cmake;/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib/cmake/cmocka/cmocka-config-version.cmake")
+   "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib/pkgconfig/cmocka.pc")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib/cmake/cmocka" TYPE FILE FILES
-    "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/cmocka-config.cmake"
-    "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/cmocka-config-version.cmake"
+file(INSTALL DESTINATION "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib/pkgconfig" TYPE FILE FILES "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/build/cmocka.pc")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
+  list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
+   "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib/cmake/cmocka/cmocka-config.cmake;/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib/cmake/cmocka/cmocka-config-version.cmake")
+  if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+  if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
+    message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
+  endif()
+file(INSTALL DESTINATION "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib/cmake/cmocka" TYPE FILE FILES
+    "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/build/cmocka-config.cmake"
+    "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/build/cmocka-config-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/doc/cmake_install.cmake")
-  include("/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/include/cmake_install.cmake")
-  include("/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/src/cmake_install.cmake")
-  include("/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/example/cmake_install.cmake")
+  include("/home/kooli/TSP/CSC4508/AVL-tree/cmocka/build/doc/cmake_install.cmake")
+  include("/home/kooli/TSP/CSC4508/AVL-tree/cmocka/build/include/cmake_install.cmake")
+  include("/home/kooli/TSP/CSC4508/AVL-tree/cmocka/build/src/cmake_install.cmake")
+  include("/home/kooli/TSP/CSC4508/AVL-tree/cmocka/build/example/cmake_install.cmake")
 
 endif()
 
@@ -76,5 +81,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

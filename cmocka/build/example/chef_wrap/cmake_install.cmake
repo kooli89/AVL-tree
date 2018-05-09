@@ -1,8 +1,8 @@
-# Install script for directory: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/chef_wrap
+# Install script for directory: /home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/chef_wrap
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -30,5 +30,10 @@ endif()
 # Install shared libraries without execute permission?
 if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
+endif()
+
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
 endif()
 

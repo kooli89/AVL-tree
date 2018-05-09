@@ -1,8 +1,8 @@
-# Install script for directory: /home/kooli/Desktop/TSP-2A/CSC4508/cmocka/include
+# Install script for directory: /home/kooli/TSP/CSC4508/AVL-tree/cmocka/include
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install")
+  set(CMAKE_INSTALL_PREFIX "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -32,18 +32,23 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
   set(CMAKE_INSTALL_SO_NO_EXE "1")
 endif()
 
-if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "headers")
+# Is this installation the result of a crosscompile?
+if(NOT DEFINED CMAKE_CROSSCOMPILING)
+  set(CMAKE_CROSSCOMPILING "FALSE")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xheadersx" OR NOT CMAKE_INSTALL_COMPONENT)
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/include/cmocka.h;/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/include/cmocka_pbc.h")
+   "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/include/cmocka.h;/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/include/cmocka_pbc.h")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/include" TYPE FILE FILES
-    "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/include/cmocka.h"
-    "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/include/cmocka_pbc.h"
+file(INSTALL DESTINATION "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/include" TYPE FILE FILES
+    "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/include/cmocka.h"
+    "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/include/cmocka_pbc.h"
     )
 endif()
 

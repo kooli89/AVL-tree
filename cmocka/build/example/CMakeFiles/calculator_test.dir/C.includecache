@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -8,9 +8,9 @@
 
 ../include/cmocka.h
 
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/calculator.c
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/calculator.c
 config.h
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/config.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/config.h
 assert.h
 -
 malloc.h
@@ -22,7 +22,7 @@ stdlib.h
 string.h
 -
 
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/calculator_test.c
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/calculator_test.c
 stdarg.h
 -
 stddef.h
@@ -30,7 +30,7 @@ stddef.h
 setjmp.h
 -
 cmocka.h
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/cmocka.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/cmocka.h
 stdio.h
 -
 

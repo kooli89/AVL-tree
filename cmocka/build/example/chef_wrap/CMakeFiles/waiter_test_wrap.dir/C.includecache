@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -8,7 +8,7 @@
 
 ../include/cmocka.h
 
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/chef_wrap/chef.c
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/chef_wrap/chef.c
 stdarg.h
 -
 stddef.h
@@ -26,11 +26,11 @@ stdbool.h
 string.h
 -
 chef.h
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/chef_wrap/chef.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/chef_wrap/chef.h
 
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/chef_wrap/chef.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/chef_wrap/chef.h
 
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/chef_wrap/waiter_test_wrap.c
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/chef_wrap/waiter_test_wrap.c
 errno.h
 -
 stdbool.h
@@ -50,9 +50,9 @@ setjmp.h
 cmocka.h
 -
 waiter_test_wrap.h
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/chef_wrap/waiter_test_wrap.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/chef_wrap/waiter_test_wrap.h
 chef.h
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/chef_wrap/chef.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/chef_wrap/chef.h
 
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/chef_wrap/waiter_test_wrap.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/chef_wrap/waiter_test_wrap.h
 

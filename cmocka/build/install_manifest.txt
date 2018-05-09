@@ -1,8 +1,8 @@
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib/pkgconfig/cmocka.pc
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib/cmake/cmocka/cmocka-config.cmake
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib/cmake/cmocka/cmocka-config-version.cmake
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/include/cmocka.h
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/include/cmocka_pbc.h
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib/libcmocka.so.0.4.1
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib/libcmocka.so.0
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib/libcmocka.so
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib/pkgconfig/cmocka.pc
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib/cmake/cmocka/cmocka-config.cmake
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib/cmake/cmocka/cmocka-config-version.cmake
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/include/cmocka.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/include/cmocka_pbc.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib/libcmocka.so.0.4.1
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib/libcmocka.so.0
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib/libcmocka.so

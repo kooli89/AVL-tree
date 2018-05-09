@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -10,7 +10,7 @@
 
 ../include/cmocka.h
 
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/customer_database.c
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/customer_database.c
 stddef.h
 -
 stdio.h
@@ -18,7 +18,7 @@ stdio.h
 database.h
 -
 
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/customer_database_test.c
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/customer_database_test.c
 stdarg.h
 -
 stddef.h

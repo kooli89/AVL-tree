@@ -5,12 +5,12 @@
 #define VERSION "1.1.1"
 
 /* #undef LOCALEDIR */
-#define DATADIR "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/share/cmocka"
-#define LIBDIR "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib"
-#define PLUGINDIR "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/lib/cmocka-0"
-#define SYSCONFDIR "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/install/etc"
-#define BINARYDIR "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/build"
-#define SOURCEDIR "/home/kooli/Desktop/TSP-2A/CSC4508/cmocka"
+#define DATADIR "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/share/cmocka"
+#define LIBDIR "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib"
+#define PLUGINDIR "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib/cmocka-0"
+#define SYSCONFDIR "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/etc"
+#define BINARYDIR "/home/kooli/TSP/CSC4508/AVL-tree/cmocka/build"
+#define SOURCEDIR "/home/kooli/TSP/CSC4508/AVL-tree/cmocka"
 
 /************************** HEADER FILES *************************/
 

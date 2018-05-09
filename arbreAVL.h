@@ -51,12 +51,6 @@ struct Node *release(struct Node *node);
 */
 char *getValue(struct Node *node, const char *key);
 
-static void swap(struct Node *z, struct Node *y);
-
 void print(struct Node* node);
-
-static struct Node *rightRotate(struct Node *z);
-
-static struct Node *leftRotate(struct Node *z);
 
 struct Node* propagate(struct Node* node, const char *key);

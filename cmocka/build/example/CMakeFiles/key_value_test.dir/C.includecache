@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -8,7 +8,7 @@
 
 ../include/cmocka.h
 
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/key_value.c
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/key_value.c
 stddef.h
 -
 stdlib.h
@@ -16,11 +16,11 @@ stdlib.h
 string.h
 -
 key_value.h
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/key_value.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/key_value.h
 
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/key_value.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/key_value.h
 
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/key_value_test.c
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/key_value_test.c
 stdarg.h
 -
 stddef.h
@@ -32,5 +32,5 @@ string.h
 cmocka.h
 -
 key_value.h
-/home/kooli/Desktop/TSP-2A/CSC4508/cmocka/example/key_value.h
+/home/kooli/TSP/CSC4508/AVL-tree/cmocka/example/key_value.h
 

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/cmocka_shared.dir/cmocka.c.o"
   "libcmocka.pdb"
-  "libcmocka.so"
   "libcmocka.so.0.4.1"
+  "libcmocka.so"
   "libcmocka.so.0"
 )
 
