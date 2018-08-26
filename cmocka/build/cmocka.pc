@@ -1,6 +1,0 @@
-Name: cmocka
-Description: The cmocka unit testing library
-Version: 1.1.1
-Libs: -L/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/lib -lcmocka
-Cflags: -I/home/kooli/TSP/CSC4508/AVL-tree/cmocka/install/include
-
